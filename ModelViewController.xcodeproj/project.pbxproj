@@ -12,6 +12,10 @@
 		0CCF0A441F6CF91300F97708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCF0A421F6CF91300F97708 /* Main.storyboard */; };
 		0CCF0A461F6CF91300F97708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCF0A451F6CF91300F97708 /* Assets.xcassets */; };
 		0CCF0A491F6CF91300F97708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCF0A471F6CF91300F97708 /* LaunchScreen.storyboard */; };
+		0CCF0A521F6CF9F000F97708 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCF0A511F6CF9F000F97708 /* Person.swift */; };
+		0CCF0A551F6CFAC800F97708 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCF0A541F6CFAC800F97708 /* APIController.swift */; };
+		0CCF0A571F6CFADC00F97708 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCF0A561F6CFADC00F97708 /* NetworkController.swift */; };
+		0CF632381F6FB418004CA6BF /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF632371F6FB418004CA6BF /* Json.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		0CCF0A451F6CF91300F97708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CCF0A481F6CF91300F97708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CCF0A4A1F6CF91300F97708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CCF0A511F6CF9F000F97708 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		0CCF0A541F6CFAC800F97708 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		0CCF0A561F6CFADC00F97708 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		0CF632371F6FB418004CA6BF /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,9 @@
 		0CCF0A3D1F6CF91300F97708 /* ModelViewController */ = {
 			isa = PBXGroup;
 			children = (
+				0CF632371F6FB418004CA6BF /* Json.swift */,
+				0CCF0A531F6CFA9200F97708 /* Contoller */,
+				0CCF0A501F6CF9E200F97708 /* Model */,
 				0CCF0A3E1F6CF91300F97708 /* AppDelegate.swift */,
 				0CCF0A401F6CF91300F97708 /* ViewController.swift */,
 				0CCF0A421F6CF91300F97708 /* Main.storyboard */,
@@ -62,6 +73,23 @@
 				0CCF0A4A1F6CF91300F97708 /* Info.plist */,
 			);
 			path = ModelViewController;
+			sourceTree = "<group>";
+		};
+		0CCF0A501F6CF9E200F97708 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CCF0A511F6CF9F000F97708 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0CCF0A531F6CFA9200F97708 /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				0CCF0A541F6CFAC800F97708 /* APIController.swift */,
+				0CCF0A561F6CFADC00F97708 /* NetworkController.swift */,
+			);
+			path = Contoller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCF0A571F6CFADC00F97708 /* NetworkController.swift in Sources */,
+				0CCF0A551F6CFAC800F97708 /* APIController.swift in Sources */,
+				0CCF0A521F6CF9F000F97708 /* Person.swift in Sources */,
+				0CF632381F6FB418004CA6BF /* Json.swift in Sources */,
 				0CCF0A411F6CF91300F97708 /* ViewController.swift in Sources */,
 				0CCF0A3F1F6CF91300F97708 /* AppDelegate.swift in Sources */,
 			);
